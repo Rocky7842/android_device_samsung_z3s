@@ -35,6 +35,9 @@ TARGET_OTA_ASSERT_DEVICE := z3s
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
+## SELinux
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Wi-Fi
 BOARD_WLAN_BCMDHD_SAE                         := true
 BOARD_WLAN_DEVICE                             := bcmdhd
