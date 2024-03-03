@@ -24,4 +24,10 @@
 
     <!-- If not zero, limits the internal screen recorder's framerate to the set value. -->
     <integer name="config_screenRecorderMaxFramerate">60</integer>
+
+    <!-- Whether device has SFC charging support -->
+    <bool name="config_hasSfcCharger">true</bool>
+
+    <!-- Whether device has AFC charging support -->
+    <bool name="config_hasAfcCharger">true</bool>
 </resources>
