@@ -24,7 +24,7 @@ BOARD_HAVE_BLUETOOTH_BCM := true
 BOARD_CUSTOM_BT_CONFIG := $(DEVICE_PATH)/bluetooth/libbt_vndcfg.txt
 
 # Display
-TARGET_SCREEN_DENSITY := 440
+TARGET_SCREEN_DENSITY := 500
 
 # Kernel
 TARGET_KERNEL_CONFIG := exynos9830-z3sxxx_defconfig
