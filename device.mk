@@ -40,6 +40,10 @@ PRODUCT_COPY_FILES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
+# UDFPS Features
+TARGET_HAS_UDFPS := true
+EXTRA_UDFPS_ANIMATIONS := true
+
 # WiFi
 PRODUCT_PACKAGES += \
     android.hardware.wifi-service \
