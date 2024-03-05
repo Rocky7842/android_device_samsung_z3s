@@ -849,7 +849,7 @@
 	<!-- voice recording input volume -->
 	<path name="gain-recording-mic">
 		<ctl name="VTS DMIC GAIN MODE0" value="6168" />
-		<ctl name="VTS CONTROL DMIC AUD GAIN0" value="0" />
+		<ctl name="VTS CONTROL DMIC AUD GAIN0" value="34" />
 	</path>
 
 	<path name="gain-recording-2nd-mic">
